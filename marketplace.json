@@ -1,0 +1,36 @@
+﻿{
+    "modules":  [
+                    {
+                        "iconUrl":  "https://raw.githubusercontent.com/remi-deher/WinBridge-Modules/main/icons/sample.png",
+                        "id":  "com.remi.sample",
+                        "screenshots":  [
+
+                                        ],
+                        "fullDescription":  "Ce module permet de valider que l\u0027infrastructure de tÃ©lÃ©chargement et d\u0027affichage de WinBridge fonctionne correctement.",
+                        "testedOn":  [
+                                         "Windows 11",
+                                         "Debian 12"
+                                     ],
+                        "name":  "Sample Module",
+                        "downloadUrl":  "https://github.com/remi-deher/WinBridge-Modules/raw/main/packages/sample-module.zip",
+                        "releaseDate":  "2026-01-01T23:44:27Z",
+                        "version":  "1.0.0",
+                        "author":  "remi-deher",
+                        "requiredPermissions":  [
+                                                    "Network.Connect"
+                                                ],
+                        "categories":  [
+                                           "Outils",
+                                           "Test"
+                                       ],
+                        "shortDescription":  "Un module d\u0027exemple pour tester le store."
+                    }
+                ],
+    "repository":  {
+                       "website":  "https://github.com/remi-deher/WinBridge-Modules",
+                       "maintainer":  "remi-deher",
+                       "description":  "DÃ©pÃ´t officiel des modules certifiÃ©s pour WinBridge.",
+                       "name":  "WinBridge Official",
+                       "status":  "Stable"
+                   }
+}
